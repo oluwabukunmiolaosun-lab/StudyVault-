@@ -447,3 +447,57 @@ hr{
 .testimonial-card h4{
     color:#2563eb;
 }
+/* Newsletter */
+
+.newsletter{
+    width:90%;
+    max-width:900px;
+    margin:80px auto;
+    background:#2563eb;
+    color:#fff;
+    text-align:center;
+    padding:50px 30px;
+    border-radius:20px;
+}
+
+.newsletter h2{
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+.newsletter p{
+    margin-bottom:30px;
+    color:#e2e8f0;
+}
+
+.newsletter-form{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.newsletter-form input{
+    width:400px;
+    max-width:100%;
+    padding:15px;
+    border:none;
+    border-radius:12px;
+    font-size:16px;
+}
+
+.newsletter-form button{
+    padding:15px 30px;
+    border:none;
+    border-radius:12px;
+    background:#10b981;
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.newsletter-form button:hover{
+    background:#059669;
+}
