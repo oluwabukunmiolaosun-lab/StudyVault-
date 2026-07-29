@@ -156,3 +156,101 @@ nav ul{
 }
 
 }
+/* =========================
+   Search Section
+========================= */
+
+.search-section{
+    width:90%;
+    max-width:1000px;
+    margin:60px auto;
+    background:#ffffff;
+    padding:40px 25px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+.search-section h2{
+    font-size:32px;
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.search-section p{
+    color:#64748b;
+    margin-bottom:25px;
+}
+
+.search-box{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.search-box input{
+    width:500px;
+    max-width:100%;
+    padding:15px;
+    border:2px solid #2563eb;
+    border-radius:12px;
+    outline:none;
+    font-size:16px;
+}
+
+.search-box button{
+    padding:15px 28px;
+    border:none;
+    border-radius:12px;
+    background:#2563eb;
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.search-box button:hover{
+    background:#1d4ed8;
+}
+
+/* =========================
+   Subjects
+========================= */
+
+.subjects{
+    width:90%;
+    max-width:1200px;
+    margin:70px auto;
+}
+
+.subjects h2{
+    text-align:center;
+    font-size:34px;
+    color:#2563eb;
+    margin-bottom:35px;
+}
+
+.subject-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.subject-card{
+    background:#ffffff;
+    padding:25px;
+    text-align:center;
+    border-radius:18px;
+    font-size:18px;
+    font-weight:600;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    cursor:pointer;
+}
+
+.subject-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(37,99,235,.25);
+}
