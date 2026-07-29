@@ -313,3 +313,54 @@ nav ul{
     color:#2563eb;
     font-weight:600;
 }
+/* Footer */
+
+footer{
+    background:#0f172a;
+    color:#fff;
+    margin-top:80px;
+    padding:60px 8% 20px;
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:40px;
+}
+
+.footer-about p,
+.footer-contact p{
+    color:#cbd5e1;
+    margin-top:10px;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+}
+
+.footer-links h3{
+    margin-bottom:15px;
+}
+
+.footer-links a{
+    color:#cbd5e1;
+    text-decoration:none;
+    margin:8px 0;
+    transition:.3s;
+}
+
+.footer-links a:hover{
+    color:#10b981;
+}
+
+hr{
+    margin:40px 0 20px;
+    border:none;
+    border-top:1px solid rgba(255,255,255,.15);
+}
+
+.copyright{
+    text-align:center;
+    color:#94a3b8;
+}
