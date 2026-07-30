@@ -1,1 +1,12 @@
-
+[
+  {
+    "question": "What is 12 × 8?",
+    "options": ["84", "96", "108", "88"],
+    "answer": "96"
+  },
+  {
+    "question": "What is the capital of Nigeria?",
+    "options": ["Lagos", "Abuja", "Kano", "Ibadan"],
+    "answer": "Abuja"
+  }
+]
