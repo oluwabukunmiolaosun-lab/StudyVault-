@@ -11,7 +11,7 @@ async function loadNotes() {
         <div class="lesson-card">
             <h3>${note.subject} - ${note.title}</h3>
             <p>${note.description}</p>
-            <a href="#">Read Lesson</a>
+            <a href="lesson.html">Read Lesson</a>
         </div>
         `;
 
