@@ -225,8 +225,9 @@ nav ul{
     box-shadow:0 8px 20px rgba(0,0,0,.08);
     transition:.3s;
     cursor:pointer;
+    text-decoration:none;
+    color:#1e293b;
 }
-
 .subject-card:hover{
     transform:translateY(-8px);
     box-shadow:0 15px 35px rgba(37,99,235,.25);
