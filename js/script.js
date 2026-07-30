@@ -1,8 +1,14 @@
-alert("JavaScript is working");
+document.addEventListener("DOMContentLoaded", () => {
 
-const menuToggle = document.getElementById("menu-toggle");
-const nav = document.querySelector("nav");
+    alert("JavaScript is working");
 
-menuToggle.addEventListener("click", () => {
-    nav.classList.toggle("active");
+    const menuToggle = document.getElementById("menu-toggle");
+    const nav = document.querySelector("nav");
+
+    if (menuToggle && nav) {
+        menuToggle.addEventListener("click", () => {
+            nav.classList.toggle("active");
+        });
+    }
+
 });
