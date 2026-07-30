@@ -715,3 +715,51 @@ hr{
     border-radius:12px;
     cursor:pointer;
 }
+/* Scholarships */
+
+.scholarships{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+    text-align:center;
+}
+
+.scholarships h1{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+.scholarships p{
+    color:#64748b;
+    margin-bottom:40px;
+}
+
+.scholarship-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.scholarship-card{
+    background:#fff;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.scholarship-card h3{
+    margin-bottom:15px;
+}
+
+.scholarship-card p{
+    margin-bottom:20px;
+}
+
+.scholarship-card a{
+    display:inline-block;
+    text-decoration:none;
+    background:#2563eb;
+    color:#fff;
+    padding:12px 24px;
+    border-radius:10px;
+}
