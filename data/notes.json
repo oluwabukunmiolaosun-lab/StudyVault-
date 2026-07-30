@@ -1,20 +1,24 @@
 [
   {
+    "id": "algebra",
     "subject": "Mathematics",
     "title": "Algebra",
     "description": "Learn equations, expressions, and inequalities."
   },
   {
+    "id": "geometry",
     "subject": "Mathematics",
     "title": "Geometry",
-    "description": "Angles, triangles, circles, and polygons."
+    "description": "Learn angles, triangles, circles, and polygons."
   },
   {
+    "id": "grammar",
     "subject": "English",
     "title": "Grammar",
-    "description": "Parts of speech, tenses, and sentence structure."
+    "description": "Learn parts of speech and sentence structure."
   },
   {
+    "id": "cells",
     "subject": "Biology",
     "title": "Cells",
     "description": "Introduction to cells and their functions."
