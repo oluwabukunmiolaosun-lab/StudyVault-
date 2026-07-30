@@ -763,3 +763,42 @@ hr{
     padding:12px 24px;
     border-radius:10px;
 }
+/* Notes Page */
+
+.notes-page{
+    width:90%;
+    max-width:1000px;
+    margin:70px auto;
+}
+
+.notes-page h1{
+    text-align:center;
+    color:#2563eb;
+    margin-bottom:40px;
+}
+
+.lesson-card{
+    background:#fff;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.lesson-card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+.lesson-card p{
+    margin-bottom:15px;
+}
+
+.lesson-card a{
+    display:inline-block;
+    background:#2563eb;
+    color:#fff;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:10px;
+}
