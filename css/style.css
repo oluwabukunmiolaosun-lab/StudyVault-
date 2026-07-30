@@ -617,3 +617,35 @@ hr{
     padding:10px 20px;
     border-radius:10px;
 }
+/* Quiz */
+
+.quiz-section{
+    width:90%;
+    max-width:700px;
+    margin:80px auto;
+    text-align:center;
+}
+
+.quiz-card{
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.quiz-card button{
+    display:block;
+    width:100%;
+    margin:12px 0;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:#fff;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.quiz-card button:hover{
+    background:#1d4ed8;
+}
