@@ -32,3 +32,10 @@ if (searchBtn && searchInput) {
         }
     });
 }
+if (searchInput) {
+    searchInput.addEventListener("keypress", (event) => {
+        if (event.key === "Enter") {
+            searchBtn.click();
+        }
+    });
+}
