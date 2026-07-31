@@ -10,32 +10,62 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
-const searchBtn = document.getElementById("searchBtn");
-const searchInput = document.getElementById("searchInput");
+    // Search
+    const searchInput = document.getElementById("searchInput");
+    const searchBtn = document.getElementById("searchBtn");
 
-if (searchBtn && searchInput) {
-    searchBtn.addEventListener("click", () => {
-        const query = searchInput.value.toLowerCase().trim();
+    if (searchInput && searchBtn) {
 
-        if (query.includes("math")) {
-            window.location.href = "notes.html";
-        } else if (query.includes("english")) {
-            window.location.href = "notes.html";
-        } else if (query.includes("quiz")) {
-            window.location.href = "quizzes.html";
-        } else if (query.includes("ai")) {
-            window.location.href = "ai.html";
-        } else if (query.includes("past")) {
-            window.location.href = "past-questions.html";
-        } else {
-            alert("No matching study material found yet.");
+        searchBtn.addEventListener("click", searchPage);
+
+        searchInput.addEventListener("keypress", function(e) {
+            if (e.key === "Enter") {
+                searchPage();
+            }
+        });
+
+        function searchPage() {
+
+            const query = searchInput.value.trim().toLowerCase();
+
+            if (query.includes("math")) {
+                window.location.href = "mathematics.html";
+            }
+
+            else if (query.includes("english")) {
+                window.location.href = "english.html";
+            }
+
+            else if (query.includes("biology")) {
+                window.location.href = "biology.html";
+            }
+
+            else if (query.includes("chemistry")) {
+                window.location.href = "chemistry.html";
+            }
+
+            else if (query.includes("physics")) {
+                window.location.href = "physics.html";
+            }
+
+            else if (query.includes("waec")) {
+                window.location.href = "waec.html";
+            }
+
+            else if (query.includes("neco")) {
+                window.location.href = "neco.html";
+            }
+
+            else if (query.includes("jamb")) {
+                window.location.href = "jamb.html";
+            }
+
+            else {
+                alert("No results found.");
+            }
+
         }
-    });
-}
-if (searchInput) {
-    searchInput.addEventListener("keypress", (event) => {
-        if (event.key === "Enter") {
-            searchBtn.click();
-        }
-    });
-}
+
+    }
+
+});
