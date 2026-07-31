@@ -817,3 +817,11 @@ hr{
     margin-bottom:25px;
     font-weight:600;
 }
+.subject-card{
+    text-decoration:none;
+    color:#1e293b;
+}
+
+.subject-card:hover{
+    color:#2563eb;
+}
