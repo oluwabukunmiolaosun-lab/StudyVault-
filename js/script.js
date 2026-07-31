@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
             nav.classList.toggle("active");
         });
     }
-
-});
     // Search
     const searchInput = document.getElementById("searchInput");
     const searchBtn = document.getElementById("searchBtn");
